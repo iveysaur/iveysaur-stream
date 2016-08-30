@@ -19,6 +19,7 @@ const packages: any = {
 const materialPkgs:string[] = [
   'core',
   'button',
+  'card',
   'icon',
   'menu',
   'toolbar',
@@ -49,6 +50,9 @@ const barrels: string[] = [
   // App specific barrels.
   'app',
   'app/shared',
+  'app/about',
+  'app/header',
+  'app/main-page',
   /** @cli-barrel */
 ];
 

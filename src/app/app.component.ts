@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { MainPageComponent } from './main-page';
 
 @Component({
   moduleId: module.id,
@@ -7,5 +8,5 @@ import { Component } from '@angular/core';
   styleUrls: ['app.component.css']
 })
 export class AppComponent {
-  title = 'iveysaur.stream';
+  title = "iveysaur.stream";
 }
