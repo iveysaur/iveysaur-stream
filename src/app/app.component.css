@@ -8,6 +8,14 @@
   color: #ffffff;
 }
 
+.title {
+  color: #ffffff;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
 .main-content {
   padding: 10px;
 }

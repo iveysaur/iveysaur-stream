@@ -1,7 +1,9 @@
 import { platformBrowserDynamic } from '@angular/platform-browser-dynamic';
 import { enableProdMode } from '@angular/core';
+import { routing, appRoutingProviders } from './app/app.routing';
 import { AppComponent, environment } from './app/';
 import { MainPageComponent } from './app/main-page';
+import { AboutComponent } from './app/about';
 import { NgModule, ApplicationRef } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { MdButtonModule } from '@angular2-material/button';
@@ -20,8 +22,12 @@ import { OverlayModule } from '@angular2-material/core/overlay/overlay-directive
     MdMenuModule,
     MdToolbarModule,
     OverlayModule,
+    routing,
   ],
-  declarations: [AppComponent, MainPageComponent],
+  declarations: [AppComponent, MainPageComponent, AboutComponent],
+  providers: [
+    appRoutingProviders
+  ],
   entryComponents: [AppComponent]
 })
 export class AppModule {
