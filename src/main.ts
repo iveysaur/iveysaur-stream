@@ -9,6 +9,7 @@ import { MdIconModule } from '@angular2-material/icon';
 import { MdMenuModule } from '@angular2-material/menu';
 import { MdToolbarModule } from '@angular2-material/toolbar';
 import { OverlayModule } from '@angular2-material/core/overlay/overlay-directives';
+import { HttpModule } from '@angular/http';
 
 import { AppComponent, environment } from './app/';
 import { AboutComponent } from './app/about';
@@ -26,6 +27,7 @@ import { MainPageComponent } from './app/main-page';
     MdToolbarModule,
     OverlayModule,
     routing,
+    HttpModule,
   ],
   declarations: [
     AppComponent,
